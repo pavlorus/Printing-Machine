@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Utilities
 {
-    class TextCorrection
+    public class TextCorrection
     {
         public static string DeleteSpecificCharacters(string inputString, string replacedCharater)
         {
