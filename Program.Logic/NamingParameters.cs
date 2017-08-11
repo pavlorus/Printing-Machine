@@ -8,6 +8,6 @@ namespace Program.Logic
 {
     class NamingParameters
     {
-        public  Type { get; set; }
+        public string Type { get; set; }
     }
 }

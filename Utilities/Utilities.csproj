@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BindingSourceExtension.cs" />
+    <Compile Include="DateTimeIso.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
