@@ -10,7 +10,7 @@ namespace Program.Logic
 {
     class NamingRules: INamingRules
     {
-        public List<NamingStyleDb> NamingStyleDb { get; set; }
+        public List<NamingStorage> NamingStyleDb { get; set; }
 
         public List<string> ParametersList { get; set; }
 

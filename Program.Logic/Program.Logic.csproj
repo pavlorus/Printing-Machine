@@ -56,7 +56,7 @@
     <Compile Include="NamingParameters.cs" />
     <Compile Include="NamingRules.cs" />
     <Compile Include="NamingStyle.cs" />
-    <Compile Include="NamingStyleDb.cs" />
+    <Compile Include="NamingStorage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

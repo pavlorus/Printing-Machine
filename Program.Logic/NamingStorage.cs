@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Program.Logic
 {
-    class NamingStyleDb
+    [Serializable]
+    class NamingStorage
     {
         public string PreffixToParameter { get; set; }
 
@@ -16,7 +17,7 @@ namespace Program.Logic
 
         public string TypeOfDataParameter { get; set; }
 
-        public NamingStyleDb(string preffixToParameter, string parameterName, string suffixToParameter, string typeOfDataParameter)
+        public NamingStorage(string preffixToParameter, string parameterName, string suffixToParameter, string typeOfDataParameter)
         {
             PreffixToParameter = preffixToParameter;
             ParameterName = parameterName;
