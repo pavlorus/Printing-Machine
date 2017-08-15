@@ -59,12 +59,7 @@
     <Compile Include="NamingStorage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SharedParameterManager.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Utilities\Utilities.csproj">
-      <Project>{ba72dc99-d8d0-4147-ad83-703c03973b90}</Project>
-      <Name>Utilities</Name>
-    </ProjectReference>
+    <Compile Include="SheetStyleStorage.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

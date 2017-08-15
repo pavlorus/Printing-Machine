@@ -71,6 +71,7 @@
     </Compile>
     <Compile Include="Interfaces\IMainForm.cs" />
     <Compile Include="Interfaces\IFilterForm.cs" />
+    <Compile Include="Interfaces\ISheetStyleStorage.cs" />
     <Compile Include="Interfaces\RegForm.cs" />
     <Compile Include="Interfaces\SettingsForm.cs" />
     <Compile Include="MainPresenter.cs" />
@@ -106,16 +107,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Program.Logic\Program.Logic.csproj">
-      <Project>{277468d7-0118-4ce1-ba0c-c356c6bebcd3}</Project>
-      <Name>Program.Logic</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Utilities\Utilities.csproj">
-      <Project>{BA72DC99-D8D0-4147-AD83-703C03973B90}</Project>
-      <Name>Utilities</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
