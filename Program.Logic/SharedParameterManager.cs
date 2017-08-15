@@ -28,7 +28,7 @@ namespace Program.Logic
             GetExistingSharedParameterFile();
         }
 
-        public void AddExistingSharedParameter(string groupOfSharedParam, string name, CategorySet cats, BuiltInParameterGroup group, bool inst)
+        public void AddToProjectParameters(string groupOfSharedParam, string name, CategorySet cats, BuiltInParameterGroup group, bool inst)
 
         {
             try
@@ -61,6 +61,7 @@ namespace Program.Logic
         {
             _exsistingSharedParameter = AplicationRvt.SharedParametersFilename;
         }
+
         private void SetExistingSharedParameterFile()
         {
             AplicationRvt.SharedParametersFilename = _exsistingSharedParameter;
@@ -70,5 +71,27 @@ namespace Program.Logic
         {
             return FilePathToSharedFile + SharedFileName;
         }
+
+        public bool DeleteFromProjectParameters(string groupOfSharedParam, string name, CategorySet cats, BuiltInParameterGroup group, bool inst)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void CreateSharedParameter(string groupOfSharedParam, string name, CategorySet cats, BuiltInParameterGroup group, bool inst)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void CreateSharedParameterWithSpecificGuid(string groupOfSharedParam, string name, CategorySet cats, 
+            BuiltInParameterGroup group, bool inst, string guid)
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool DeleteSharedParameter(string name)
+        {
+            throw new NotImplementedException();
+        }
+
     }
 }
