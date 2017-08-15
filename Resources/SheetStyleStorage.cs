@@ -3,16 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Program;
 
-namespace Program.Logic
+
+namespace Resources
 
 {
     public enum PaperOrientation { Portrait, Landscape }
 
     public enum PaperAppearence { Color, Black, Grayscale }
 
-    class SheetStyleStorage : ISheetStyleStorage
+    [Serializable]
+    class SheetStyleStorage
     {
         public string PrintStyle { get; set; }
 

@@ -1,4 +1,5 @@
 ﻿using Program.Logic;
+using Resources;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -8,15 +9,16 @@ using System.Threading.Tasks;
 using System.Xml.Serialization;
 
 
+
 namespace Utilities
 {
     class SettingsManager
     {
         private static string _settingsFileName;
         private static string _fileExtension;
-        private static SettingsData _data = new SettingsData();
+        private static ISettingsData _data = new SettingsData();
 
-        public static SettingsData Data { get => _data; set => _data = value; }
+        public static ISettingsData Data { get => _data; set => _data = value; }
 
         private static string GetFileName()
         {

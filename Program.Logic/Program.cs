@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Utilities;
 
-namespace Program
+
+namespace Program.Logic
 {
     static class Program
     {
@@ -19,7 +19,7 @@ namespace Program
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new MainForm());
-            Application.Run(new Form1());
+            //Application.Run(new Form1());
         }
     }
 }

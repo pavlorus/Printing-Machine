@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Program.Logic.Interfaces;
+
 
 namespace Program.Logic
 {
-    public class FileManager : IFileManager
+    public class FileManager
     {
         public string FileName { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
         public string Path { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
