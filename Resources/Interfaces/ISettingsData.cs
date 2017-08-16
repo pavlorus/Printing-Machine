@@ -4,7 +4,5 @@
     {
         string Name { get; set; }
         string Gate { get; set; }
-        string Sex { get; set; }
-
     }
 }

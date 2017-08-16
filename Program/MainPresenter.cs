@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Program.Logic;
 using Program.Interfaces;
 
-namespace Program.Logic
+namespace Program.View
 {
     
     class MainPresenter

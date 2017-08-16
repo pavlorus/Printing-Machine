@@ -64,9 +64,9 @@
     <Compile Include="SharedParameterManager.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Program\Program.csproj">
+    <ProjectReference Include="..\Program\Program.View.csproj">
       <Project>{0e5214ef-0caf-4353-a403-d9515058641c}</Project>
-      <Name>Program</Name>
+      <Name>Program.View</Name>
     </ProjectReference>
     <ProjectReference Include="..\Resources\Resources.csproj">
       <Project>{676e6166-628c-48a4-ad68-e7d89efd2404}</Project>
