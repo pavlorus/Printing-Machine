@@ -40,13 +40,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interfaces\INamingStorage.cs" />
+    <Compile Include="Interfaces\ISettingsData.cs" />
+    <Compile Include="Interfaces\ISheetStyleStorage.cs" />
     <Compile Include="NamingStorage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SettingsData.cs" />
     <Compile Include="SheetStyleStorage.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Interfaces\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

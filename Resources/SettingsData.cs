@@ -14,12 +14,4 @@ namespace Resources
         public string Gate { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
         public string Sex { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
     }
-
-    public interface ISettingsData
-    {
-        string Name { get; set; }
-        string Gate { get; set; }
-        string Sex { get; set; }
-
-    }
 }

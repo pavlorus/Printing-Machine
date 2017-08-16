@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Resources
 {
     [Serializable]
-    class NamingStorage
+    class NamingStorage: INamingStorage
     {
         public string PreffixToParameter { get; set; }
 
@@ -24,6 +24,7 @@ namespace Resources
             SuffixToParameter = suffixToParameter;
             TypeOfDataParameter = typeOfDataParameter;
         }
+
     }
 }
 

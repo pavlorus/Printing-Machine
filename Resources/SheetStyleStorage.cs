@@ -13,7 +13,7 @@ namespace Resources
     public enum PaperAppearence { Color, Black, Grayscale }
 
     [Serializable]
-    class SheetStyleStorage
+    class SheetStyleStorage: ISheetStyleStorage
     {
         public string PrintStyle { get; set; }
 
@@ -28,4 +28,6 @@ namespace Resources
         public int PaperLength { get; set; }
 
     }
+
+
 }

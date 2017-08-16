@@ -5,12 +5,13 @@ using System.Text;
 using System.Threading.Tasks;
 using Program.Logic.Interfaces;
 using Autodesk.Revit.DB;
+using Resources;
 
 namespace Program.Logic
 {
     class NamingRules: INamingRules
     {
-        public List<NamingStorage> NamingStyleDb { get; set; }
+        public List<INamingStorage> NamingStyleDb { get; set; }
 
         public List<string> ParametersList { get; set; }
 
