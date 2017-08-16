@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Program.Logic.Interfaces
 {
-    interface INamingRules
+    interface INamingManager
     {
     }
 }
