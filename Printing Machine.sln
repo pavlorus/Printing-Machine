@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program.View", "Program\Program.View.csproj", "{0E5214EF-0CAF-4353-A403-D9515058641C}"
 EndProject
@@ -10,6 +10,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "Utilities\Utilities.csproj", "{BA72DC99-D8D0-4147-AD83-703C03973B90}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resources", "Resources\Resources.csproj", "{676E6166-628C-48A4-AD68-E7D89EFD2404}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UML_Diagrams", "UML_Diagrams", "{1F363277-E7B7-462F-835D-5D6414ACE6B4}"
+	ProjectSection(SolutionItems) = preProject
+		UML_Diagrams\Printing Machine.ncp = UML_Diagrams\Printing Machine.ncp
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
