@@ -1,13 +1,40 @@
 <Project>
   <Name>Printing Machine</Name>
   <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
-    <Name>Untitled</Name>
+    <Name>BusinessLogic</Name>
     <Language>CSharp</Language>
-    <Entities />
-    <Relationships />
+    <Entities>
+      <Entity type="Class">
+        <Name>Printer</Name>
+        <Access>Public</Access>
+        <Location left="86" top="83" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void Start()</Member>
+        <Member type="Method">public void Stop()</Member>
+        <Member type="Property">public bool IsPrinted { get; set; }</Member>
+        <Modifier>Abstract</Modifier>
+      </Entity>
+      <Entity type="Interface">
+        <Name>IPrintedle</Name>
+        <Access>Public</Access>
+        <Location left="313" top="83" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">void Stop()</Member>
+        <Member type="Method">void Start()</Member>
+        <Member type="Method">void SetView()</Member>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Realization" first="0" second="1">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+    </Relationships>
   </ProjectItem>
   <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
-    <Name>Untitled</Name>
+    <Name>ViewModel</Name>
     <Language>CSharp</Language>
     <Entities />
     <Relationships />
