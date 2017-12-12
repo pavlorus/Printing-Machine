@@ -50,15 +50,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ExportDwg.cs" />
+    <Compile Include="ExportDxf.cs" />
+    <Compile Include="ExportImg.cs" />
     <Compile Include="Filter.cs" />
     <Compile Include="Interfaces\IFileManager.cs" />
     <Compile Include="Interfaces\IFilter.cs" />
     <Compile Include="Interfaces\IMassageService.cs" />
     <Compile Include="Interfaces\INamingManager.cs" />
+    <Compile Include="Interfaces\IPrintable.cs" />
     <Compile Include="MassageService.cs" />
     <Compile Include="NamingParameters.cs" />
     <Compile Include="NamingManager.cs" />
     <Compile Include="NamingStyle.cs" />
+    <Compile Include="PrinterBase.cs" />
+    <Compile Include="PrinterDefault.cs" />
+    <Compile Include="PrinterVirtual.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SharedParameterManager.cs" />
