@@ -13,5 +13,10 @@ namespace Program.Logic
         public string Directory { get; set; }
         public abstract void Start();
 
+        public virtual void GetPrintStyle()
+        {
+            
+        }
+
     }
 }
