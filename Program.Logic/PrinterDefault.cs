@@ -12,5 +12,6 @@ namespace Program.Logic
         {
             throw new NotImplementedException();
         }
+        
     }
 }
