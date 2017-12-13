@@ -34,7 +34,6 @@ namespace Program.Logic
             
         }
 
-
         private void ConvertToPdf(string _convertedFilePath)
         {
             var jobQueue = CreateQueue();

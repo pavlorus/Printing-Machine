@@ -25,7 +25,6 @@ namespace Program.Logic
             _revitDocument = doc;
             _printManager = _revitDocument.PrintManager;
             _printManager.SelectNewPrintDriver(_printDriver);
-
         }
 
         public virtual void Start()
